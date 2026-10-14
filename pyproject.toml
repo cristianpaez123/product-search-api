@@ -1,0 +1,12 @@
+[project]
+name = "product-search-api"
+version = "0.1.0"
+description = "API REST de búsqueda de productos con FastAPI"
+readme = "README.md"
+authors = [
+    { name = "Cristian Paez", email = "cristianpaezguerrero@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.128.8",
+]
